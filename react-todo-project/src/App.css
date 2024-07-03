@@ -1,0 +1,13 @@
+#root{
+  margin: auto;
+  margin-top: 40px;
+  width: 50%;
+  padding: 10px;
+  /* border: 1px solid black; */
+}
+.list-heading{
+  text-align: center;
+  font-size: 50px;
+  color: rgb(52, 49, 49);
+}
+

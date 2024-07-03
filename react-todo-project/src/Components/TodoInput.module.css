@@ -1,0 +1,15 @@
+.inputDiv{
+    display: flex;
+    justify-content: space-between;
+}
+.addBtn{
+     width:20%;
+     margin-Right:5px;
+     border-radius:5px;
+}
+
+.inputTodo{
+     width: 79%;
+     border:1px solid gray;
+     border-radius:5px;
+}
