@@ -36,11 +36,9 @@ function App() {
   }
 
   function handleEditOnClick(itemToEdit){
-    console.log(itemToEdit);
     document.querySelector("#todo-input-box").value=itemToEdit;
     let newList=TodoList.filter(task=>task !== itemToEdit);
-    // let newtask=document.querySelector("#todo-input-box").value;
-    // setTodoList([...newList,newtask]);
+    setTodoList([newList]);
  
   }
   return (
