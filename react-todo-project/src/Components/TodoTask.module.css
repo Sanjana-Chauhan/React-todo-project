@@ -20,7 +20,11 @@
 }
 .editTaskbtn{
     width: 30px;
-     padding:2px;
+     padding:3px;
      margin-right:3px;
      border-radius:5px;
+     text-align: center;
+}
+.editTaskbtn:hover{
+    background-color: blue;
 }

@@ -1,3 +1,5 @@
+import { RiDeleteBin6Fill } from "react-icons/ri";
+import { FaEdit } from "react-icons/fa";
 import styles from "./TodoTask.module.css";
 function TodoTask(props) {
   let task=props.task;
@@ -9,8 +11,10 @@ function TodoTask(props) {
 
 
   <div className={`${styles.taskControlButtonBox}`}>
-      <button className={`btn btn-primary ${styles.editTaskbtn}`} type="button" onClick={()=>props.handleDelOnClick(task)}>D </button>
-      <button className={`btn btn-primary ${styles.editTaskbtn}`} type="button" onClick={()=>props.handleEditOnClick(task)}>E</button>
+      <button className={`btn btn-primary ${styles.editTaskbtn}`} type="button" onClick={()=>props.handleDelOnClick(task)}><RiDeleteBin6Fill />
+      </button>
+      <button className={`btn btn-primary ${styles.editTaskbtn}`} type="button" onClick={()=>props.handleEditOnClick(task)}><FaEdit />
+      </button>
     </div>
     </li>
   );
