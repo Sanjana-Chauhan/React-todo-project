@@ -1,3 +1,4 @@
+It is a very basic react practice project to learn basic concepts of react like props ,useState etc.
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
